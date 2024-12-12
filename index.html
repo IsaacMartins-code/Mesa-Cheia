@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <link rel="stylesheet" href="src/styles/styles.css">
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer">
+   </script>
+
+   <title>Mesa Cheia</title>
+
+   <script src="https://unpkg.com/scrollreveal"></script>
+   <link rel="shortcut icon" href="src/icon/MESA CHEIA.ico" type="image/x-icon">
+</head>
+
+<body>
+   <header>
+      <nav id="navbar">
+         <img src="src/images/MESA CHEIA.png " id="imgnav">
+         <ul id="nav_list">
+            <li class="nav-item">
+               <a href="#vocesabia">Você Sabia?</a>
+            </li>
+            <li class="nav-item">
+               <a href="#sobreoprojeto">Sobre o Projeto</a>
+            </li>
+            <li class="nav-item">
+               <a href="#ondedoar">Onde Doar?</a>
+            </li>
+            <li class="nav-item">
+               <a href="#contato">Contato</a>
+            </li>
+         </ul>
+
+         <button id="mobile_btn">
+            <i class="fa-solid fa-bars"></i>
+         </button>
+      </nav>
+
+      <div id="mobile_menu">
+         <ul id="mobilenav_list">
+            <li class="nav-item">
+               <a href="#vocesabia">Você Sabia?</a>
+            </li>
+            <li class="nav-item">
+               <a href="#sobreoprojeto">Sobre o Projeto</a>
+            </li>
+            <li class="nav-item">
+               <a href="#ondedoar">Onde Doar?</a>
+            </li>
+            <li class="nav-item">
+               <a href="#contato">Contato</a>
+            </li>
+         </ul>
+      </div>
+   </header>
+
+   <script>
+      window.onload = () => {
+
+         history.replaceState(null, null, ' ');
+
+         setTimeout(() => {
+            location.hash = '#home';
+         }, 1); 
+         
+      };
+   </script>
+
+   <main id="content">
+      <section id="home">
+         <div id="cta">
+            <h1 class="title">
+               A MUDANÇA COMEÇA POR <span>VOCÊ</span>
+            </h1>
+
+            <p class="frase">
+               Transforme solidariedade em ação: doe hoje, alimente esperanças amanhã!
+            </p>
+         </div>
+
+         <div id="banner">
+            <img src="src/images/imgban.png" id="imgbn">
+         </div>
+      </section>
+
+      <section id="VCS">
+         <h1 id="vocesabia">VOCÊ <span>SABIA?</span></h1>
+         <p id="p1">Na cidade de Barro Ceará, mais de 12 famílias enfrentam vulnerabilidade alimentar, lutando
+            diariamente para colocar comida na mesa. Os bairros Trajano Nogueira e Gangorra são os mais impactados, mas
+            sabemos que a necessidade se espalha por diversas outras localidades.
+            Com a sua contribuição, podemos transformar essa realidade. Cada gesto de solidariedade alimenta não só
+            pessoas, mas também a esperança de uma qualidade de vida melhor.</p>
+      </section>
+
+      <section id="MESACHEIA">
+         <h1 id="sobreoprojeto">O QUE É O <span>MESA CHEIA?</span></h1>
+         <div class="pdireita">
+            <p id="p2">O projeto social "Mesa Cheia" é uma iniciativa dos alunos de Ensino Médio profissionalizante do
+               curso de Desenvolvimento de Sistemas que visa combater a insegurança alimentar
+               e conscientizar a comunidade sobre a importância do acesso à alimentação digna para todos. O objetivo
+               principal é abordar a falta de comida na mesa de cidadãos em situação de vulnerabilidade social no
+               município de Barro Ceará,
+               sensibilizando jovens e adultos sobre as questões relacionadas à fome, desperdício de alimentos e
+               desigualdade social.</p>
+         </div>
+      </section>
+
+      <section id="ONDEDOAR">
+         <h1 id="ondedoar">ONDE <span>DOAR?</span></h1>
+         <p id="local">As doações, juntamente com a apresentação do projeto serão realizadas no evento EXPO JOPS, dia 5
+            de dezembro de 2024, na Escola Estadual de Educação Profissional Professor José Osmar Plácido da Silva
+            Rua: Antônia Bezerra Teles, sn - Jardim São Francisco, Barro - CE, 63380-000. Pontos de coleta também serão
+            distribuídos nos supermercados da cidade.</p>
+      </section>
+
+      <footer id="contato">
+         <div id="footer_items">
+            <span id="copyright">
+               &copy 2024 3º Desen. de Sistemas <br> <span id="contatos">contatos:</span>
+            </span>
+         </div>
+
+         <div class="social-media-buttons">
+            <a href="tel:+558899925638">
+               <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://www.instagram.com/ddsjops03?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+               <i class="fa-brands fa-instagram"></i>
+            </a>
+         </div>
+      </footer>
+   </main>
+
+   <script src="src/styles/JavaScript/script.js"></script>
+</body>
+
+</html>

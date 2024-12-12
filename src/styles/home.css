@@ -1,0 +1,652 @@
+#home {
+    display: flex;
+    min-height: calc(100vh - 181px);
+    max-width: 100;
+}
+
+#cta {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10%;
+}
+
+.title {
+    font-size: 5rem;
+    color: #ffffff;
+}
+
+.title span {
+    font-size: 5rem;
+    color: #b7adff;
+}
+
+.frase {
+    font-size: 2rem;
+    color: #ffffff;
+    max-width: 770px;
+}
+
+#banner {
+    display: flex;
+    align-items: start;
+    width: 70%;
+}
+
+#imgbn {
+    padding-top: 100px;
+    padding-left: 140px;
+    max-width: 114%;
+    height: auto;
+}
+
+
+/* secao 1(voce sabia) */
+#VCS {
+    margin-top: 175px;
+    padding-top: 110px;
+    padding-bottom: 100px;
+    background-image: url(../images/section1.png);
+    background-position-x: 47%;
+    background-position-y: 51%;
+    background-repeat: no-repeat;
+    background-size: auto 3000px;
+}
+
+#vocesabia {
+    color: #ffffff;
+    text-align: center;
+    font-size: 7.2rem;
+}
+
+#vocesabia span {
+    color: #b7adff;
+}
+
+#p1 {
+    color: #ffffff;
+    text-align: left;
+    max-width: 770px;
+    font-size: 28px;
+    margin-top: 90px;
+}
+
+/*fim da secao 1*/
+
+
+/*secao2(sobre o projeto)*/
+#MESACHEIA {
+    margin-top: 175px;
+    background-image: url(../images/section2.png);
+    background-position-x: 135%;
+    background-position-y: 13%;
+    background-repeat: no-repeat;
+    background-size: auto 1160px;
+    padding-bottom: 90px;
+}
+
+#sobreoprojeto {
+    margin-top: 130px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 7rem;
+}
+
+#sobreoprojeto span {
+    color: #b7adff;
+}
+
+.pdireita {
+    justify-items: flex-end;
+}
+
+#p2 {
+    color: #ffffff;
+    font-size: 28px;
+    text-align: right;
+    max-width: 770px;
+    margin-top: 90px;
+}
+
+/*fim da secao 2*/
+
+
+/*secao3(onde doar?)*/
+#ONDEDOAR {
+    margin-top: 120px;
+    background-image: url(../images/EEEP.png);
+    background-repeat: no-repeat;
+    background-position-x: 47%;
+    background-size: auto 1250px;
+
+}
+
+#ondedoar {
+    margin-top: 150px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 7rem;
+}
+
+#ondedoar span {
+    color: #b7adff;
+}
+
+#local {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: left;
+    max-width: 770px;
+    margin-top: 500px;
+    margin-bottom: 100px;
+}
+
+/*fim da secao3*/
+
+@media screen and (max-width: 1170px) {
+    #home {
+        flex-direction: column;
+        min-height: 100%;
+        padding-top: 0px;
+    }
+
+    #banner,
+    #imgbn {
+        display: none;
+    }
+
+    #cta {
+        display: block;
+        margin-top: 120%;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 6.5rem;
+        color: #ffffff;
+    }
+
+    .title span {
+        font-size: 6.5rem;
+        color: #b7adff;
+    }
+
+    .frase {
+        font-size: 2.5rem;
+    }
+
+    /* secao 1(voce sabia) */
+    #VCS {
+        margin-top: 200px;
+        background-image: url(../images/section1.png);
+        background-position-x: 57%;
+        background-position-y: 60%;
+        background-repeat: no-repeat;
+        background-size: auto 4000px;
+    }
+
+    #vocesabia {
+        color: #ffffff;
+        text-align: center;
+        font-size: 6rem;
+    }
+
+    #vocesabia span {
+        color: #b7adff;
+    }
+
+    #p1 {
+        color: #ffffff;
+        text-align: left;
+        max-width: 770px;
+        font-size: 35px;
+        margin-top: 350px;
+    }
+
+    /*fim da secao 1*/
+
+    /*secao2(sobre o projeto)*/
+    #MESACHEIA {
+        margin-top: 175px;
+        background-image: url(../images/section2.png);
+        background-position-x: 45%;
+        background-position-y: 13%;
+        background-repeat: no-repeat;
+        background-size: auto 1900px;
+        padding-bottom: 90px;
+    }
+
+    #sobreoprojeto {
+        margin-top: 130px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 6rem;
+    }
+
+    #sobreoprojeto span {
+        color: #b7adff;
+    }
+
+    .pdireita {
+        justify-items: center;
+    }
+
+    #p2 {
+        color: #ffffff;
+        font-size: 35px;
+        text-align: left;
+        max-width: 770px;
+        margin-top: 400px;
+    }
+
+    /*fim da secao 2*/
+
+    /*secao3(onde doar?)*/
+    #ONDEDOAR {
+        margin-top: 120px;
+        background-image: url(../images/EEEP.png);
+        background-repeat: no-repeat;
+        background-position-x: 47%;
+        background-size: auto 1250px;
+
+    }
+
+    #ondedoar {
+        margin-top: 150px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 6rem;
+    }
+
+    #ondedoar span {
+        color: #b7adff;
+    }
+
+    #local {
+        color: #ffffff;
+        font-size: 35px;
+        text-align: left;
+        max-width: 770px;
+        margin-top: 500px;
+        margin-bottom: 100px;
+    }
+
+    /*fim da secao3*/
+}
+
+@media screen and (max-width: 768px) {
+
+    .title,
+    .title span {
+        font-size: 6rem;
+    }
+
+    .frase {
+        font-size: 2.3rem;
+    }
+
+    #cta {
+        display: block;
+        margin-top: 120%;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* secao 1(voce sabia) */
+    #VCS {
+        margin-top: 175px;
+        padding-top: 110px;
+        padding-bottom: 100px;
+        background-image: url(../images/section1.png);
+        background-repeat: no-repeat;
+        background-position-y: 65%;
+        background-position-x: 55%;
+        background-size: auto 3000px;
+    }
+
+    #vocesabia {
+        color: #ffffff;
+        text-align: left;
+        font-size: 6rem;
+    }
+
+    #vocesabia span {
+        color: #b7adff;
+    }
+
+    #p1 {
+        color: #ffffff;
+        text-align: left;
+        max-width: 768px;
+        font-size: 32px;
+        margin-top: 200px;
+    }
+
+    /*fim da secao 1*/
+
+    /*secao2(sobre o projeto)*/
+    #MESACHEIA {
+        margin-top: 155px;
+        background-image: url(../images/section2.png);
+        background-repeat: no-repeat;
+        background-position-y: 45%;
+        background-position-x: 47%;
+        background-size: auto 2000px;
+        padding-bottom: 90px;
+    }
+
+    #sobreoprojeto {
+        margin-top: 130px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 6rem;
+    }
+
+    #sobreoprojeto span {
+        color: #b7adff;
+    }
+
+    .pdireita {
+        justify-items: center;
+    }
+
+    #p2 {
+        color: #ffffff;
+        font-size: 32px;
+        text-align: left;
+        max-width: 768px;
+        margin-top: 200px;
+    }
+
+    /*fim da secao 2*/
+
+    /*secao3(onde doar?)*/
+    #ONDEDOAR {
+        margin-top: 120px;
+        background-image: url(../images/EEEP.png);
+        background-repeat: no-repeat;
+        background-position-x: 47%;
+        background-size: auto 1250px;
+    }
+
+    #ondedoar {
+        margin-top: 150px;
+        color: #ffffff;
+        text-align: left;
+        font-size: 6.2rem;
+    }
+
+    #ondedoar span {
+        color: #b7adff;
+    }
+
+    #local {
+        color: #ffffff;
+        font-size: 30px;
+        text-align: left;
+        justify-content: space-between;
+        max-width: 770px;
+        margin-top: 500px;
+        margin-bottom: 100px;
+    }
+
+    /*fim da secao3*/
+}
+
+@media screen and (max-width: 450px) {
+
+    .title,
+    .title span {
+        font-size: 3rem;
+    }
+
+    .frase {
+        font-size: 1.6rem;
+    }
+
+    #cta {
+        display: block;
+        margin-top: 160%;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    #vocesabia,
+    #vocesabia span {
+        font-size: 3.1rem;
+
+    }
+
+    /* secao 1(voce sabia) */
+    #VCS {
+        margin-top: 100px;
+        background-image: url(../images/section1.png);
+        background-repeat: no-repeat;
+        background-position-y: 60%;
+        background-position-x: 55%;
+        background-size: auto 2750px;
+    }
+
+    #vocesabia {
+        color: #ffffff;
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    #vocesabia span {
+        font-size: 4rem;
+        color: #b7adff;
+    }
+
+    #p1 {
+        color: #ffffff;
+        text-align: left;
+        max-width: 450px;
+        font-size: 20px;
+        margin-top: 200px;
+    }
+
+    /*fim da secao 1*/
+
+    /*secao2(sobre o projeto)*/
+    #MESACHEIA {
+        margin-top: 100px;
+        padding-bottom: 90px;
+        background-image: url(../images/section2.png);
+        background-repeat: no-repeat;
+        background-position-y: 65%;
+        background-position-x: 47%;
+        background-size: auto 1200px;
+    }
+
+    #sobreoprojeto {
+        margin-top: 50px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    #sobreoprojeto span {
+        font-size: 2.9rem;
+        text-align: left;
+        color: #b7adff;
+    }
+
+    .pdireita {
+        justify-items: center;
+    }
+
+    #p2 {
+        color: #ffffff;
+        font-size: 20px;
+        text-align: left;
+        max-width: 450px;
+        margin-top: 200px;
+    }
+
+    /*fim da secao 2*/
+
+    /*secao3(onde doar?)*/
+    #ONDEDOAR {
+        margin-top: 80px;
+        background-image: url(../images/EEEP.png);
+        background-repeat: no-repeat;
+        background-position-x: 47%;
+        background-size: auto 1000px;
+
+    }
+
+    #ondedoar {
+        margin-top: 90px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    #ondedoar span {
+        color: #b7adff;
+    }
+
+    #local {
+        color: #ffffff;
+        font-size: 20px;
+        text-align: left;
+        max-width: 770px;
+        margin-top: 310px;
+        margin-bottom: 100px;
+    }
+
+    /*fim da secao3*/
+}
+
+@media screen and (max-width: 360px) {
+
+    .title,
+    .title span {
+        font-size: 3rem;
+    }
+
+    .frase {
+        font-size: 1.6rem;
+    }
+
+    #cta {
+        display: block;
+        margin-top: 160%;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    #vocesabia,
+    #vocesabia span {
+        font-size: 3.1rem;
+
+    }
+
+    /* secao 1(voce sabia) */
+    #VCS {
+        margin-top: 100px;
+        background-image: url(../images/section1.png);
+        background-repeat: no-repeat;
+        background-position-y: 60%;
+        background-position-x: 55%;
+        background-size: auto 2750px;
+    }
+
+    #vocesabia {
+        color: #ffffff;
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    #vocesabia span {
+        font-size: 4rem;
+        color: #b7adff;
+    }
+
+    #p1 {
+        color: #ffffff;
+        text-align: left;
+        max-width: 450px;
+        font-size: 18px;
+        margin-top: 200px;
+    }
+
+    /*fim da secao 1*/
+
+    /*secao2(sobre o projeto)*/
+    #MESACHEIA {
+        margin-top: 100px;
+        padding-bottom: 90px;
+        background-image: url(../images/section2.png);
+        background-repeat: no-repeat;
+        background-position-y: 80%;
+        background-position-x: 47%;
+        background-size: auto 1200px;
+    }
+
+    #sobreoprojeto {
+        margin-top: 50px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 2.9rem;
+    }
+
+    #sobreoprojeto span {
+        font-size: 2.8rem;
+        text-align: left;
+        color: #b7adff;
+    }
+
+    .pdireita {
+        justify-items: center;
+    }
+
+    #p2 {
+        color: #ffffff;
+        font-size: 18px;
+        text-align: left;
+        max-width: 450px;
+        margin-top: 200px;
+    }
+
+    /*fim da secao 2*/
+
+    /*secao3(onde doar?)*/
+    #ONDEDOAR {
+        margin-top: 80px;
+        background-image: url(../images/EEEP.png);
+        background-repeat: no-repeat;
+        background-position-x: 47%;
+        background-size: auto 1000px;
+
+    }
+
+    #ondedoar {
+        margin-top: 90px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    #ondedoar span {
+        color: #b7adff;
+    }
+
+    #local {
+        color: #ffffff;
+        font-size: 18px;
+        text-align: left;
+        max-width: 770px;
+        margin-top: 280px;
+        margin-bottom: 100px;
+    }
+
+    /*fim da secao3*/
+}
