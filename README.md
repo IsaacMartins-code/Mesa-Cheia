@@ -1,1 +1,1 @@
-Site para projeto social escolar, feito em HTML, CSS e JavaScript (Jquery e ScrollReveal), responsivo na maioria das resoluções de tela.
+Mesa Cheia é um projeto de arrecadação de alimentos para famílias em situação de vulnerabilidade alimentar. O objetivo do site é chamar a atenção das pessoas para o projeto e informar locais de doação.
